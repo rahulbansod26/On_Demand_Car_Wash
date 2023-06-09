@@ -1,0 +1,5 @@
+package com.project.rahul.Customer.repository;
+
+public class CustomerRepo {
+
+}

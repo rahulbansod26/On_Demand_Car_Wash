@@ -1,0 +1,5 @@
+package com.project.rahul.Customer.model;
+
+public class customerDetails {
+
+}
