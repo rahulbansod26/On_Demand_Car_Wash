@@ -1,0 +1,327 @@
+2023-07-13 00:04:08.312  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 00:09:08.451  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 00:14:08.461  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 00:19:08.471  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 09:37:57.677  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 09:42:57.743  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 09:47:57.908  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 09:52:58.028  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 09:57:58.044  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:02:58.058  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:07:58.058  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:12:58.071  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:17:58.076  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:22:58.079  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:27:58.091  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:32:58.101  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:37:58.112  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:42:58.116  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:44:15.647  INFO 20556 --- [main] c.a.CarwashManagementApplicationTests    : Starting CarwashManagementApplicationTests using Java 17.0.6 on MSI with PID 20556 (started by rahul in C:\Users\rahul\Downloads\On-Demand-Car-Wash-App-master 01\On-Demand-Car-Wash-App-master\Carwash-Admin)
+2023-07-13 10:44:15.648  INFO 20556 --- [main] c.a.CarwashManagementApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 10:44:16.556  INFO 20556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-13 10:44:16.695  INFO 20556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 3 MongoDB repository interfaces.
+2023-07-13 10:44:16.937  INFO 20556 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5c9d5bb0-1111-30df-bc87-a9c1186ad55e
+2023-07-13 10:44:17.645  INFO 20556 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-07-13 10:44:17.731  INFO 20556 --- [cluster-rtt-ClusterId{value='64af8829a4116067caea6fbd', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:422}] to localhost:27017
+2023-07-13 10:44:17.751  WARN 20556 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 10:44:17.777  INFO 20556 --- [cluster-ClusterId{value='64af8829a4116067caea6fbd', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:423}] to localhost:27017
+2023-07-13 10:44:17.777  INFO 20556 --- [cluster-ClusterId{value='64af8829a4116067caea6fbd', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=97206200}
+2023-07-13 10:44:17.894  WARN 20556 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 10:44:20.159  INFO 20556 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-13 10:44:20.320  WARN 20556 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-13 10:44:20.362  INFO 20556 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-13 10:44:20.440  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-13 10:44:20.447  INFO 20556 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-13 10:44:20.468  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-13 10:44:20.469  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-13 10:44:20.840  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-13 10:44:20.843  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-13 10:44:20.845  INFO 20556 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-13 10:44:20.849  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689225260848 with initial instances count: 5
+2023-07-13 10:44:20.852  INFO 20556 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-07-13 10:44:20.853  INFO 20556 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689225260853, current=UP, previous=STARTING]
+2023-07-13 10:44:20.854  INFO 20556 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:44:20.854  INFO 20556 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-13 10:44:20.864  INFO 20556 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-13 10:44:20.878  INFO 20556 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-13 10:44:20.902  INFO 20556 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:44:21.027  INFO 20556 --- [main] c.a.CarwashManagementApplicationTests    : Started CarwashManagementApplicationTests in 5.745 seconds (JVM running for 6.9)
+2023-07-13 10:44:21.167  INFO 20556 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2023-07-13 10:44:21.167  INFO 20556 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689225261167, current=DOWN, previous=UP]
+2023-07-13 10:44:21.167  INFO 20556 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:44:21.176  INFO 20556 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-13 10:44:21.194  INFO 20556 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:44:21.196  INFO 20556 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-07-13 10:44:21.199  INFO 20556 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - deregister  status: 200
+2023-07-13 10:44:21.202  INFO 20556 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-07-13 10:44:33.478  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - Re-registering apps/ADMIN-SERVICE
+2023-07-13 10:44:33.579  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:44:34.935  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:44:47.647  INFO 29264 --- [main] c.a.CarwashManagementApplicationTests    : Starting CarwashManagementApplicationTests using Java 17.0.6 on MSI with PID 29264 (started by rahul in C:\Users\rahul\Downloads\On-Demand-Car-Wash-App-master 01\On-Demand-Car-Wash-App-master\Carwash-Admin)
+2023-07-13 10:44:47.648  INFO 29264 --- [main] c.a.CarwashManagementApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 10:44:48.643  INFO 29264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-13 10:44:48.816  INFO 29264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 3 MongoDB repository interfaces.
+2023-07-13 10:44:49.119  INFO 29264 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5c9d5bb0-1111-30df-bc87-a9c1186ad55e
+2023-07-13 10:44:50.067  INFO 29264 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-07-13 10:44:50.145  INFO 29264 --- [cluster-rtt-ClusterId{value='64af884a96dfce31445c3541', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:424}] to localhost:27017
+2023-07-13 10:44:50.156  INFO 29264 --- [cluster-ClusterId{value='64af884a96dfce31445c3541', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:425}] to localhost:27017
+2023-07-13 10:44:50.157  INFO 29264 --- [cluster-ClusterId{value='64af884a96dfce31445c3541', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36053400}
+2023-07-13 10:44:50.201  WARN 29264 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 10:44:50.356  WARN 29264 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 10:44:52.614  INFO 29264 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-13 10:44:52.853  WARN 29264 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-13 10:44:52.878  INFO 29264 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-13 10:44:52.959  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-13 10:44:52.967  INFO 29264 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:44:52.993  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-13 10:44:52.993  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-13 10:44:52.993  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-13 10:44:52.993  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-13 10:44:52.994  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-13 10:44:52.994  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-13 10:44:52.994  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-13 10:44:53.484  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-13 10:44:53.487  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-13 10:44:53.491  INFO 29264 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-13 10:44:53.497  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689225293496 with initial instances count: 5
+2023-07-13 10:44:53.501  INFO 29264 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-07-13 10:44:53.502  INFO 29264 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689225293502, current=UP, previous=STARTING]
+2023-07-13 10:44:53.505  INFO 29264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:44:53.505  INFO 29264 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-13 10:44:53.519  INFO 29264 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-13 10:44:53.542  INFO 29264 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-13 10:44:53.555  INFO 29264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:44:53.723  INFO 29264 --- [main] c.a.CarwashManagementApplicationTests    : Started CarwashManagementApplicationTests in 6.588 seconds (JVM running for 11.567)
+2023-07-13 10:44:54.187  INFO 29264 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2023-07-13 10:44:54.187  INFO 29264 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689225294187, current=DOWN, previous=UP]
+2023-07-13 10:44:54.187  INFO 29264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:44:54.191  INFO 29264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:44:54.198  INFO 29264 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-13 10:44:57.202  INFO 29264 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-07-13 10:44:57.206  INFO 29264 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - deregister  status: 200
+2023-07-13 10:44:57.211  INFO 29264 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-07-13 10:45:04.940  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - Re-registering apps/ADMIN-SERVICE
+2023-07-13 10:45:04.940  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 10:45:05.033  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 10:47:58.129  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:52:58.133  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 10:57:58.146  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:02:58.150  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:07:58.163  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:12:58.176  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:17:58.186  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:22:58.194  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:23:43.175  INFO 15612 --- [Thread-81] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2023-07-13 11:23:43.175  INFO 15612 --- [Thread-81] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689227623175, current=DOWN, previous=UP]
+2023-07-13 11:23:43.262  INFO 15612 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 11:23:43.635  INFO 15612 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 11:23:56.724  INFO 15612 --- [Thread-81] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-13 11:24:00.043  INFO 15612 --- [Thread-81] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-07-13 11:24:00.454  INFO 15612 --- [Thread-81] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - deregister  status: 200
+2023-07-13 11:24:01.721  INFO 15612 --- [Thread-81] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-07-13 11:24:07.434  INFO 15612 --- [restartedMain] com.admin.CarwashManagementApplication   : Starting CarwashManagementApplication using Java 17.0.6 on MSI with PID 15612 (C:\Users\rahul\Downloads\On-Demand-Car-Wash-App-master 01\On-Demand-Car-Wash-App-master\Carwash-Admin\target\classes started by rahul in C:\Users\rahul\Downloads\On-Demand-Car-Wash-App-master 01\On-Demand-Car-Wash-App-master\Carwash-Admin)
+2023-07-13 11:24:07.434  INFO 15612 --- [restartedMain] com.admin.CarwashManagementApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 11:24:08.789  INFO 15612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-13 11:24:08.859  INFO 15612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 MongoDB repository interfaces.
+2023-07-13 11:24:09.292  INFO 15612 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=32c23e5d-aabc-3907-be09-b549638778f2
+2023-07-13 11:24:10.209  INFO 15612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2023-07-13 11:24:10.210  INFO 15612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-13 11:24:10.210  INFO 15612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-07-13 11:24:11.291  INFO 15612 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-07-13 11:24:11.291  INFO 15612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3789 ms
+2023-07-13 11:24:11.421  INFO 15612 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-07-13 11:24:11.518  WARN 15612 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 11:24:12.830  INFO 15612 --- [cluster-ClusterId{value='64af9183f59e94193bf8babe', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:31, serverValue:426}] to localhost:27017
+2023-07-13 11:24:12.830  INFO 15612 --- [cluster-rtt-ClusterId{value='64af9183f59e94193bf8babe', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:32, serverValue:427}] to localhost:27017
+2023-07-13 11:24:12.830  INFO 15612 --- [cluster-ClusterId{value='64af9183f59e94193bf8babe', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1374974400}
+2023-07-13 11:24:12.920  INFO 15612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-13 11:24:12.964  WARN 15612 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 11:24:19.788  INFO 15612 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-13 11:24:19.899  WARN 15612 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-13 11:24:20.082  INFO 15612 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-13 11:24:20.168  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-13 11:24:20.168  INFO 15612 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-13 11:24:20.169  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-13 11:24:20.175  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-13 11:24:20.176  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-13 11:24:20.176  INFO 15612 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-13 11:24:20.177  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689227660177 with initial instances count: 4
+2023-07-13 11:24:20.178  INFO 15612 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-07-13 11:24:20.178  INFO 15612 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689227660178, current=UP, previous=STARTING]
+2023-07-13 11:24:20.178  INFO 15612 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 11:24:20.181  INFO 15612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2023-07-13 11:24:20.181  INFO 15612 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9001
+2023-07-13 11:24:20.183  INFO 15612 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 11:24:20.226  INFO 15612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-13 11:24:20.227  INFO 15612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-13 11:24:20.283  INFO 15612 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-13 11:24:20.326  INFO 15612 --- [restartedMain] com.admin.CarwashManagementApplication   : Started CarwashManagementApplication in 14.257 seconds (JVM running for 219511.426)
+2023-07-13 11:24:20.327  INFO 15612 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-13 11:27:45.869  INFO 5136 --- [main] c.a.CarwashManagementApplicationTests    : Starting CarwashManagementApplicationTests using Java 17.0.6 on MSI with PID 5136 (started by rahul in C:\Users\rahul\Downloads\On-Demand-Car-Wash-App-master 01\On-Demand-Car-Wash-App-master\Carwash-Admin)
+2023-07-13 11:27:45.871  INFO 5136 --- [main] c.a.CarwashManagementApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 11:27:46.682  INFO 5136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-13 11:27:46.823  INFO 5136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 3 MongoDB repository interfaces.
+2023-07-13 11:27:47.027  INFO 5136 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5c9d5bb0-1111-30df-bc87-a9c1186ad55e
+2023-07-13 11:27:50.066  INFO 5136 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-07-13 11:27:50.118  INFO 5136 --- [cluster-rtt-ClusterId{value='64af925ed2250d20d00e6dc5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:429}] to localhost:27017
+2023-07-13 11:27:50.118  INFO 5136 --- [cluster-ClusterId{value='64af925ed2250d20d00e6dc5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:428}] to localhost:27017
+2023-07-13 11:27:50.118  INFO 5136 --- [cluster-ClusterId{value='64af925ed2250d20d00e6dc5', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14353100}
+2023-07-13 11:27:50.168  WARN 5136 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 11:27:50.289  WARN 5136 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-13 11:27:52.462  INFO 5136 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-13 11:27:52.684  WARN 5136 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-13 11:27:52.710  INFO 5136 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-13 11:27:52.791  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-13 11:27:52.798  INFO 5136 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:27:52.817  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-13 11:27:52.817  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-13 11:27:52.817  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-13 11:27:52.817  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-13 11:27:52.818  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-13 11:27:52.818  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-13 11:27:52.818  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-13 11:27:53.979  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-13 11:27:53.981  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-13 11:27:53.983  INFO 5136 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-13 11:27:53.987  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689227873987 with initial instances count: 5
+2023-07-13 11:27:53.991  INFO 5136 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-07-13 11:27:53.991  INFO 5136 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689227873991, current=UP, previous=STARTING]
+2023-07-13 11:27:53.992  INFO 5136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 11:27:53.992  INFO 5136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-13 11:27:54.001  INFO 5136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-13 11:27:54.015  INFO 5136 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-13 11:27:54.020  INFO 5136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 11:27:54.135  INFO 5136 --- [main] c.a.CarwashManagementApplicationTests    : Started CarwashManagementApplicationTests in 9.026 seconds (JVM running for 14.392)
+2023-07-13 11:27:54.249  INFO 5136 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2023-07-13 11:27:54.250  INFO 5136 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689227874250, current=DOWN, previous=UP]
+2023-07-13 11:27:54.250  INFO 5136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 11:27:54.252  INFO 5136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 11:27:54.255  INFO 5136 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-13 11:27:57.262  INFO 5136 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-07-13 11:27:57.266  INFO 5136 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - deregister  status: 200
+2023-07-13 11:27:57.269  INFO 5136 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-07-13 11:28:20.303  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - Re-registering apps/ADMIN-SERVICE
+2023-07-13 11:28:20.304  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001: registering service...
+2023-07-13 11:28:20.305  INFO 15612 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/MSI:Admin-Service:9001 - registration status: 204
+2023-07-13 11:29:20.185  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:34:20.198  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:39:20.205  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:44:20.308  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:49:20.311  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:54:20.326  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 11:59:20.342  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:04:20.372  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:09:20.377  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:14:20.389  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:19:20.399  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:24:20.799  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:29:20.813  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:34:21.635  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:39:21.890  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:44:21.891  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:49:21.898  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:54:21.905  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 12:59:21.920  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:04:21.933  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:09:21.939  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:14:21.946  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:19:21.988  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:24:21.989  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:29:21.992  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:34:21.995  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:39:22.000  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:44:22.008  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:49:22.010  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:54:22.014  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 13:59:22.029  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:04:22.067  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:09:22.083  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:14:22.092  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:19:22.103  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:19:52.181  INFO 15612 --- [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-13 14:19:52.181  INFO 15612 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-13 14:19:52.223  INFO 15612 --- [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2023-07-13 14:19:52.615  INFO 15612 --- [http-nio-9001-exec-2] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:19:53.044  INFO 15612 --- [http-nio-9001-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:33, serverValue:486}] to localhost:27017
+2023-07-13 14:19:56.178  INFO 15612 --- [http-nio-9001-exec-3] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:20:33.014  INFO 15612 --- [http-nio-9001-exec-5] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:20:37.239  INFO 15612 --- [http-nio-9001-exec-6] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 14:20:52.325  INFO 15612 --- [http-nio-9001-exec-7] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:20:55.870  INFO 15612 --- [http-nio-9001-exec-8] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:24:22.180  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:26:02.932  INFO 15612 --- [http-nio-9001-exec-10] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:26:16.773  INFO 15612 --- [http-nio-9001-exec-1] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:26:18.996  INFO 15612 --- [http-nio-9001-exec-3] com.admin.controller.AdminController     : (getPackById)Called
+2023-07-13 14:27:10.118  INFO 15612 --- [http-nio-9001-exec-4] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 14:27:57.235  INFO 15612 --- [http-nio-9001-exec-7] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:29:22.185  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:33:32.108  INFO 15612 --- [http-nio-9001-exec-9] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 14:33:55.729  INFO 15612 --- [http-nio-9001-exec-1] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 14:34:22.233  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:36:10.421  INFO 15612 --- [http-nio-9001-exec-3] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 14:36:23.053  INFO 15612 --- [http-nio-9001-exec-5] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 14:39:22.247  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:44:22.258  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:48:53.712  INFO 15612 --- [http-nio-9001-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1459 ms
+2023-07-13 14:49:22.502  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:54:22.515  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 14:59:22.527  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:04:22.541  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:09:22.572  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:14:22.734  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:19:22.750  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:24:22.753  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:29:22.759  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:34:22.775  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:39:22.789  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:44:22.800  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:49:22.806  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:54:22.820  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 15:59:22.828  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:04:22.843  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:09:22.855  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:14:22.863  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:19:22.870  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:24:22.876  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:29:22.885  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:34:22.899  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:39:22.902  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:44:23.025  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:49:23.033  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:54:23.045  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 16:59:23.054  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:04:23.064  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:09:23.080  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:14:23.084  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:19:23.089  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:24:23.254  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:29:23.257  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:34:23.272  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:39:23.287  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:44:23.290  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:49:23.294  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:54:23.303  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 17:59:23.313  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 18:02:09.337  INFO 15612 --- [http-nio-9001-exec-9] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 18:02:56.151  INFO 15612 --- [http-nio-9001-exec-3] com.admin.controller.AdminController     : (addNewPack)Called
+2023-07-13 18:03:01.635  INFO 15612 --- [http-nio-9001-exec-5] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 18:04:20.110  INFO 15612 --- [http-nio-9001-exec-7] com.admin.controller.AdminController     : (getAllPacks)Called
+2023-07-13 18:04:23.325  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 18:04:36.344  INFO 15612 --- [http-nio-9001-exec-6] com.admin.controller.AdminController     : (getPackById)Called
+2023-07-13 18:06:25.795  INFO 15612 --- [http-nio-9001-exec-9] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 18:07:29.130  INFO 15612 --- [http-nio-9001-exec-5] com.admin.controller.AdminController     : (addToLeaderboard)Called
+2023-07-13 18:07:32.135  INFO 15612 --- [http-nio-9001-exec-8] com.admin.controller.AdminController     : (washerLeaderboard)Called
+2023-07-13 18:09:23.341  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 18:14:23.353  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-13 18:19:23.359  INFO 15612 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

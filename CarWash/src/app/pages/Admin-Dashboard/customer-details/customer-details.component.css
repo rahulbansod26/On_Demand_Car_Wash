@@ -1,0 +1,31 @@
+.para {
+    color: rgb(255, 255, 255);
+}
+
+/* .mat-card {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.906);
+    color: white;
+}
+
+.mat-title {
+    color: rgb(235, 202, 15);
+    text-transform: uppercase;
+}
+
+.body {
+    padding-left: 30%;
+}  */
+
+.color{
+    color: black;
+}
+
+mat-raised-button {
+    width: 50px;
+}
+
+imgs {
+    height: 0.1px;
+    width: 0.1px;    
+  }

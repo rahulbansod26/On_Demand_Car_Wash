@@ -1,0 +1,24 @@
+<mat-card style="background: white; border-radius: 2px; border: #333;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm mt10 ml20" style="margin-bottom: 20px;" *ngFor="let order of allOrders">
+                <div class="card card-inverse"
+                    style="background-color: #66CDAA;color:whitesmoke;  border-color: #333; width: 20rem;">
+                    <div class="card-block mt20 mb20 ml10">
+                        <div>
+                            <img mat-card-image src="../../../../assets/order.png" class="imgs" style="border: #333; 
+                            width: 95%; margin-left: 0px;" >
+                        </div>
+                        <h3 class="card-title" style="text-align: start;">Name: {{ order.customerName }}</h3>
+                        <p class="card-text" style="text-align: start;">CarName: {{order.carName}}</p>
+                        <p class="card-text" style="text-align: start;">CarNo: {{ order.carNo}}</p>
+                        <p class="card-text" style="text-align: start;">CarModel: {{ order.carModel}}</p>
+                        <p class="card-text" style="text-align: start;">WashName: {{ order.washName}}</p>
+                        <p class="card-text" style="text-align: start;">Amount: {{ order.amount}}</p>
+                        <p class="card-text" style="text-align: start;">Email: {{ order.email}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</mat-card>

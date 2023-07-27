@@ -1,0 +1,24 @@
+<!-- <app-navbar></app-navbar>
+
+<div class="bootstrap-wrapper" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" style="text-align: left;" >
+                <app-washer-sidebar></app-washer-sidebar>
+            </div>
+            <div class="col-md-10">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<mat-drawer-container>
+    <mat-drawer mode="side" [opened]="sideBarOpen">
+       <app-washer-sidebar></app-washer-sidebar>
+    </mat-drawer>
+    <mat-drawer-content>
+        <app-washer-header (toggleSidebarForMe)="sideBarToggler()"></app-washer-header>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

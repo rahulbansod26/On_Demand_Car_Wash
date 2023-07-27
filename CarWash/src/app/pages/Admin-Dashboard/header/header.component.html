@@ -1,0 +1,33 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between">
+        <button mat-icon-button (click)="toggleSidebar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>GreenWash</span>
+        <span class="example-spacer"></span>
+        <a *ngIf="!isLoggedIn" 
+        [routerLink]="'/login'" mat-icon-button class="example-icon favorite-icon"
+          aria-label="Example icon-button with heart icon">
+          Login
+        </a>
+        
+        <a *ngIf="!isLoggedIn" 
+          [routerLink]="'/signup'" mat-icon-button class="example-icon mr20 ml20"
+          aria-label="Example icon-button with share icon">
+          Register
+        </a>
+      
+        <a *ngIf="isLoggedIn" [routerLink]="'/admin/profile'"
+        mat-icon-button class="example-icon mr20 ml20"
+         aria-label="Example icon-button with share icon">
+         {{login.getUser().username}}
+       </a>
+      
+        <a *ngIf="isLoggedIn" (click)="logout()"
+         mat-icon-button class="example-icon mr20 ml20"
+          aria-label="Example icon-button with share icon">
+          Logout
+        </a>
+      
+    </mat-toolbar-row>
+</mat-toolbar>

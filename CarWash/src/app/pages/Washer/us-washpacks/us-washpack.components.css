@@ -1,0 +1,8 @@
+.color{
+    color: black;
+}
+
+mat-raised-button {
+    width: 50px;
+   }
+   /* style="background: white; border-radius: 2px; border: #333 */

@@ -1,0 +1,40 @@
+<mat-card style="margin-top: 20px;background: whitesmoke;">
+    <h1 class="text-center" style="color: black;">Add New Washpack</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <form (ngSubmit)="updateData()">
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Rank</mat-label>
+                        <input [(ngModel)]="leader.rank" type="text" name="rank" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Washername</mat-label>
+                        <input [(ngModel)]="leader.washerName" type="text" name="washerName" placeholder="Enter here"
+                            matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">waterSavedInLiters</mat-label>
+                        <input [(ngModel)]="leader.waterSavedInLiters" type="number" name="waterSavedInLiters"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">working Hours</mat-label>
+                        <input [(ngModel)]="leader.workingHrs" type="text" name="workingHrs"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <div class="container text-center">
+                        <button mat-raised-button color="primary">Update</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</mat-card>

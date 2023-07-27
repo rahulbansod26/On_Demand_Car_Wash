@@ -1,0 +1,63 @@
+<mat-card style="margin-top: 20px;background-color: whitesmoke;">
+    <h1 class="text-center" style="color:green;"><b>Book CarWash</b></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <form (ngSubmit)="placeOrder()">
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">washName</mat-label>
+                        <input readonly [(ngModel)]="orderDetails.washName" type="text" name="carname"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">CarName</mat-label>
+                        <input required [(ngModel)]="orderDetails.carName" type="text" name="carno"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Car Number</mat-label>
+                        <input required [(ngModel)]="orderDetails.carNo" type="text" name="carno"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Car Model</mat-label>
+                        <input required [(ngModel)]="orderDetails.carModel" type="text" name="carmodel"
+                            placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Amount</mat-label>
+                        <input required readonly [(ngModel)]="orderDetails.amount" type="number" name="amount" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">CustomerName</mat-label>
+                        <input required readonly [(ngModel)]="orderDetails.customerName" type="text" name="customerName" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Address</mat-label>
+                        <input required [(ngModel)]="orderDetails.address" type="text" name="address" placeholder="Enter here" matInput />
+                    </mat-form-field> 
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Email</mat-label>
+                        <input required [(ngModel)]="orderDetails.email" type="text" name="ownername" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <div class="container text-center">
+                        <button mat-raised-button color="primary" type="submit" >Book</button>
+                        <button mat-raised-button color="primary" class="ml10" (click)="paynow()">Pay</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</mat-card>
+

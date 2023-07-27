@@ -1,0 +1,69 @@
+<app-navbar></app-navbar>
+
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../../assets/greenwash.jpg" height="100%" width="100%">
+        </div>
+        <div class="col-md-4 mt-1 mb-2">
+            
+            <h3 class="text-primary text-center mt-5" style="font-size: 300%;"><b>Greenwash</b></h3>
+
+            <form class="p-5" (ngSubmit)="formSubmit()" >
+              <h1 class="text-center text-success" >Register Here</h1>
+               
+                
+                   <!-- Username -->
+             <mat-form-field class="full-width" appearance="outline">
+              <mat-label style="color: black;">Username</mat-label>
+              <input required [minlength]="3" [(ngModel)]="customer.username" name="userName"
+              matInput placeholder="Enter Here" >
+              <mat-hint style="color: black;">Username must be unique</mat-hint>
+            </mat-form-field>
+
+               <!-- Password -->
+            <mat-form-field class="full-width" appearance="outline">
+                <mat-label style="color: black;">Password</mat-label>
+                <input required [(ngModel)]="customer.password" name="password" 
+                type="password" matInput placeholder="Enter Here">
+              </mat-form-field>
+
+              <!-- Name -->
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label style="color: black;">Full Name</mat-label>
+                <input required [(ngModel)]="customer.name" name="name"
+                matInput placeholder="Enter Here">
+              </mat-form-field>
+
+              <!-- Email -->
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label style="color: black;">Email</mat-label>
+                <input required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" [(ngModel)]="customer.email" name="email" 
+                type="email" matInput placeholder="Enter Here">
+              </mat-form-field>
+
+               <!-- PhoneNo -->
+                <mat-form-field class="full-width" appearance="outline">
+                <mat-label style="color: black;">Phone Number</mat-label>
+                <input required pattern="^((\\+91-?)|0)?[0-9]{10}$" [(ngModel)]="customer.phone" name="phone"
+                type="number" matInput placeholder="Enter Here">
+                </mat-form-field> 
+
+              <!-- Address -->
+
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label style="color: black;">Address</mat-label>
+                <input required [(ngModel)]="customer.address" name="address"
+                type="text" matInput placeholder="Enter Here">
+            </mat-form-field>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button mat-raised-button class="btn-login">Register</button>
+                  </div>
+                  <a routerLink="/login" class="text-primary" style="text-decoration: none;">Log In ? </a>
+            </form>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</div>

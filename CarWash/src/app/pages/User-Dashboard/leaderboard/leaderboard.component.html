@@ -1,0 +1,19 @@
+<h1 class="text-center mt10" style="color:#04AA6D;font-family: Georgia, 'Times New Roman', Times, serif;">LeaderBoard</h1>
+<table class="table">
+    <thead style="background: yellowgreen;">
+        <tr class="mt10" style="column-gap: 10px;">
+            <th scope="col">Rank</th>
+            <th scope="col">Washer Name</th>
+            <th scope="col">Water Saved in Ltrs</th>
+            <th scope="col">Working Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of leader ">
+            <td>{{data.rank}}</td>
+            <td>{{data.washerName}}</td>
+            <td>{{data.waterSavedInLiters}}</td>
+            <td>{{data.workingHrs}}</td>
+        </tr>
+    </tbody>
+</table>

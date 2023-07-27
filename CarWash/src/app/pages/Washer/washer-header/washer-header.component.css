@@ -1,0 +1,19 @@
+.mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #228B22;
+}
+
+button {
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.cl{
+  background-color: rgb(26, 141, 26);
+}

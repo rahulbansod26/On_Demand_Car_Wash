@@ -1,0 +1,39 @@
+<mat-card style="margin-top: 20px;background-color: whitesmoke;">
+    <h1 class="text-center" style="color: black;">Add New Washpack</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <form (ngSubmit)="addWashpacks()">
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Id</mat-label>
+                        <input [(ngModel)]="addWashpack.id" type="text" name="id" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Packname</mat-label>
+                        <input [(ngModel)]="addWashpack.packName" type="text" name="packName" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Amount</mat-label>
+                        <input [(ngModel)]="addWashpack.amount" type="number" name="amount" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Description</mat-label>
+                        <textarea [(ngModel)]="addWashpack.description" type="text" name="description" placeholder="Enter here" matInput rows="5"></textarea>
+                    </mat-form-field>
+
+                    <div class="container text-center">
+                        <button mat-raised-button color="primary">Add</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</mat-card>
+
+<!-- {{addWashpack | json}} -->

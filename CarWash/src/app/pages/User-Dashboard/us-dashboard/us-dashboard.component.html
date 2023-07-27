@@ -1,0 +1,26 @@
+
+<!-- <app-navbar></app-navbar>
+
+<div class="bootstrap-wrapper" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" style="text-align: left;" >
+                <app-us-sidebar></app-us-sidebar>
+            </div>
+            <div class="col-md-10">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<mat-drawer-container>
+    <mat-drawer mode="side" [opened]="sideBarOpen">
+       <app-us-sidebar></app-us-sidebar>
+    </mat-drawer>
+    <mat-drawer-content>
+        <!-- <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header> -->
+        <app-us-header (toggleSidebarForMe)="sideBarToggler()"></app-us-header>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

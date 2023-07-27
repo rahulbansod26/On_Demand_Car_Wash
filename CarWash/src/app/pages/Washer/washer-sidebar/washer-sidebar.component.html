@@ -1,0 +1,71 @@
+<!-- <mat-card class="card">
+    <mat-action-list>
+        <div class="text-center" style="font-size: large;"><b>Menu</b></div>
+        <br>
+        <mat-divider></mat-divider>
+        <button mat-list-item routerLink="/washer">
+            <mat-icon mat-list-icon>home</mat-icon>
+            Home
+        </button>
+        <button mat-list-item routerLink="/washer/profile">
+            <mat-icon mat-list-icon>account_box</mat-icon>
+            Profile
+        </button>
+        <button mat-list-item routerLink="/washer/washpack">
+            <mat-icon mat-list-icon>
+                inventory
+            </mat-icon>
+            Washpacks
+        </button>
+        <button mat-list-item routerLink="/washer/orders">
+            <mat-icon mat-list-icon>
+                <span class="material-icons-outlined">
+                    task_alt
+                    </span>
+            </mat-icon>
+           Orders
+        </button>
+        <button mat-list-item routerLink="">
+            <mat-icon mat-list-icon>leaderboard</mat-icon>
+            WasherLeaderboard
+        </button>
+    </mat-action-list>
+</mat-card> -->
+
+
+<mat-nav-list >
+    <h2 class="mt-2 text-center ">Applications</h2>
+    <mat-divider></mat-divider>
+    <button mat-list-item routerLink="/washer">
+        <mat-icon mat-list-icon>home</mat-icon>
+        Home
+    </button>
+    <button mat-list-item routerLink="/washer/profile">
+        <mat-icon mat-list-icon>account_box</mat-icon>
+        Profile
+      </button>
+      <button mat-list-item routerLink="/washer/washpack" routerLinkActive="list-item-active">
+          <mat-icon mat-list-icon>
+              inventory
+          </mat-icon>
+        Washpacks
+    </button>
+    <button mat-list-item routerLink="/washer/Pendingorders" routerLinkActive="list-item-active">
+      <mat-icon mat-list-icon><span class="material-icons-outlined">
+                task_alt
+                </span>
+        </mat-icon>
+      Pending Orders
+    </button>
+    <button mat-list-item routerLink="/washer/Assignorders" routerLinkActive="list-item-active">
+      <mat-icon mat-list-icon><span class="material-icons-outlined">
+                task_alt
+                </span>
+        </mat-icon>
+      Assign Orders
+    </button>
+    <button mat-list-item routerLink="/washer/WasherLeaderboard">
+        <mat-icon mat-list-icon>leaderboard</mat-icon>
+        WasherLeaderboard
+    </button>
+</mat-nav-list>

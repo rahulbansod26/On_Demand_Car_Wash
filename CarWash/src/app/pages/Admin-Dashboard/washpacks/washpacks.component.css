@@ -1,0 +1,13 @@
+.color{
+    color: black;
+}
+
+mat-raised-button {
+    width: 50px;
+}
+
+imgs {
+    height: 0.1px;
+    width: 0.1px;
+     
+  }

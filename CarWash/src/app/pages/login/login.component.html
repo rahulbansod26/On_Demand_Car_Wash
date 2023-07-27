@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../../assets/greenwash.jpg" height="100%" width="100%">
+        </div>
+        <div class="col-md-4">
+
+            <h3 class="text-primary text-center mt-5" style="font-size: 300%;"><b>Greenwash</b></h3>
+
+            <form (ngSubmit)="formSubmit()" class="mt-5 p-5" >
+                <h2 class="text-success text-center mb-3"><b>Login</b></h2>
+                
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label style="color: black;">Username</mat-label>
+                    <input [(ngModel)]="logindata.username" required name="username" matInput placeholder="Enter Here"
+                        type="text">
+                </mat-form-field>
+
+                <!-- Password  -->
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label style="color: black;">Password</mat-label>
+                    <input [(ngModel)]="logindata.password" required name="password" type="password" matInput
+                        placeholder="Enter Here">
+                </mat-form-field>
+
+                <div class="container text-center ">
+                    <button mat-raised-button class="btn-login" type="submit">Login</button>
+                    <!-- <button class="ml10" mat-raised-button color="warn">Reset</button> -->
+                </div>
+
+                <a routerLink="/signup" class="text-primary" style="text-decoration: none;">Sign Up ? </a>
+            </form>
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+</div>
+</body>

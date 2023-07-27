@@ -1,0 +1,42 @@
+/* .card
+{
+    text-align: start;
+    margin-top: 10px;
+    text-align: left;
+    background-color: green;
+    height: 100%;
+    position: fixed;
+
+} */
+
+
+.mat-icon{
+    vertical-align: center;
+    margin-right: 1rem;
+}
+
+.mat-divider{
+    border-top-width: 2px;
+    border-color: whitesmoke;
+}
+
+.mat-list-item{
+    color: white;
+    font-size: 1rem;
+    height: 44px;
+    margin-bottom: 4px;
+}
+
+.mat-list-item:hover{
+    background: #2c3344;
+}
+
+.mat-list-item-content::ng-deep{
+    border-radius: 5px;
+    margin: 0 8px;
+}
+
+.list-item-active{
+    color: #f2f5f7;
+}
+

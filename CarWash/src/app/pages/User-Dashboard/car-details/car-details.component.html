@@ -1,0 +1,39 @@
+<mat-card style="margin-top: 20px;background-color: whitesmoke;">
+    <h1 class="text-center" style="color:green;"><b>Car Details</b></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <form (ngSubmit)="addDetails()" >
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Car Name</mat-label>
+                        <input required [(ngModel)]="addCarDetails.carName" type="text" name="carname" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Car Number</mat-label>
+                        <input required [(ngModel)]="addCarDetails.carNo" type="text" name="carno" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Car Model</mat-label>
+                        <input required [(ngModel)]="addCarDetails.carModel" type="text" name="carmodel" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <mat-form-field class="w100" appearance="outline">
+                        <mat-label style="color: black;">Owner Name</mat-label>
+                        <input required [(ngModel)]="addCarDetails.ownerName" type="text" name="ownername" placeholder="Enter here" matInput />
+                    </mat-form-field>
+
+                    <div class="container text-center">
+                        <button mat-raised-button color="primary" type="submit">Add</button>
+                        <button mat-raised-button color="warn" class="ml10" type="button">Update</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</mat-card>
+
